@@ -1,0 +1,152 @@
+.topo {
+    height: 40px;
+}
+
+.navbar {
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+.navbar ul li:hover{
+   color: white;
+}
+
+.dropdown-item:hover{
+    background-color: darkcyan;
+    color: white;
+}
+
+.busca {
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+
+.busca input {
+    background-image: url('../src/img/busca.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    padding: 12px;
+    height: 20px;
+    margin-top: 5px;
+    width: 190px;
+    border: 1px solid #d6d6d6;
+}
+
+.dropdown-menu {
+    width: 240px;
+}
+
+.texto-topo {
+    margin-left: 70px;
+    font-size: x-large;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.ultima-margem {
+    margin-right: 70px;
+}
+
+.imagem-principal {
+    height: 500px;
+    width: 100%;
+}
+
+.espaco {
+    padding-top: 10%;
+}
+
+.novidades {
+    background-color: #f2f2f2;
+}
+
+.auxilios {
+    background-color: #222a36;
+    color: white;
+}
+
+.imagem-auxilios {
+    width: 350px;
+}
+
+hr {
+	height: 2px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: rgb(35, 197, 170);
+	margin-bottom: 20px;
+	border: 0;
+}
+
+.btn {
+    width: 250px;
+    height: 100px;
+}
+
+.btn-2 {
+    width: 150px;
+    height: 100px;
+}
+
+.btn-orange {
+    background-color: #ffad33;
+}
+
+.btn-green {
+    background-color: #53ff1a;
+}
+
+.footer-fema {
+    background-color: #222a36;
+}
+
+.face {
+    border-radius: 50%;
+    background-color: #999da2;
+}
+
+.gmail {
+    border-radius: 50%;
+    background-color: #999da2;
+}
+
+@media (max-width: 400px) {
+	
+    .busca {
+        display: none;
+    }
+
+    .busca input {
+        display: none;
+    }
+
+    .navbar-toggler-icon {
+        position: relative;
+    }
+
+    .img-nov {
+        width: 300px;
+    }
+
+    .imagem-auxilios {
+        width: 300px;
+    }
+
+    .btn {
+        margin-top: 15px;
+        width: 150px;
+        height: 100px;
+    }
+
+    .ultimo-button {
+        width: 340px;
+    }
+
+    .img-footer {
+        width: 300px;
+    }
+}
